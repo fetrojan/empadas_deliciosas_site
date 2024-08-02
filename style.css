@@ -38,3 +38,19 @@ body {
 img {
     max-width: 15rem;
 }
+
+.colaborador {
+    max-width: 8rem;
+    border-radius: 5rem;
+}
+
+.time {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+}
