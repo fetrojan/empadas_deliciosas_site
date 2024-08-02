@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #f9b14a;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-w {
+    width: 100%;
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+.custom-fs {
+    font-size: 0.8rem;
+}
+
+.custom-color1 {
+    color: #f9b14a
+}
+
+.custom-color2 {
+    color: #eb8a49;
+}
+
+img {
+    max-width: 15rem;
+}
