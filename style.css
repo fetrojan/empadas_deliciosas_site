@@ -17,6 +17,18 @@ body {
     justify-content: center;
 }
 
+.navegacao .nav-link {
+    transition: all 0.4s;
+    padding: 4px;
+}
+
+.navegacao .nav-link:hover {
+    color: #fff;
+    background-color: #eb8a49;
+    transform: scale(1.1);
+    border-radius: 1rem;
+}
+
 .custom-w {
     width: 100%;
     max-width: 45rem;
@@ -36,7 +48,13 @@ body {
 }
 
 img {
-    max-width: 15rem;
+    max-width: 12rem;
+    height: 12rem;
+}
+
+.custom-table * {
+    color: #fff !important;
+    background-color: #f9b14a !important;
 }
 
 .colaborador {
@@ -53,4 +71,26 @@ img {
 .map-container {
     display: flex;
     justify-content: center;
+}
+
+.btn-custom {
+    background-color: #eb8a49;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #f9b14a;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #eb8a49;
 }
